@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Maurya | Student Profile</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #071019;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 24px 14px;
+    }
+    .card {
+      width: 100%;
+      max-width: 430px;
+      background: linear-gradient(145deg, #0d1721, #050a0f);
+      border: 1px solid #263746;
+      border-radius: 24px;
+      padding: 28px 20px;
+      box-shadow: 0 18px 50px rgba(0,0,0,.45);
+    }
+    .photo {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 18px;
+      border: 3px solid #168cff;
+      background: #111;
+    }
+    h1 {
+      text-align: center;
+      margin: 0;
+      font-size: 34px;
+      letter-spacing: 1px;
+    }
+    .surname {
+      text-align: center;
+      color: #168cff;
+      font-size: 25px;
+      font-style: italic;
+      margin: 2px 0 18px;
+    }
+    .badge {
+      width: fit-content;
+      margin: 0 auto 12px;
+      padding: 8px 18px;
+      border: 1px solid #168cff;
+      border-radius: 20px;
+      color: #168cff;
+      font-weight: 700;
+    }
+    .sub {
+      text-align: center;
+      color: #168cff;
+      margin-bottom: 24px;
+    }
+    .info {
+      border: 1px solid #334552;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .row {
+      display: flex;
+      gap: 12px;
+      padding: 14px;
+      border-bottom: 1px solid #263746;
+      align-items: flex-start;
+    }
+    .row:last-child { border-bottom: 0; }
+    .label {
+      width: 105px;
+      color: #b8c3ca;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+    .value {
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+    .links {
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .links a {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid #334552;
+      border-radius: 12px;
+      padding: 13px;
+      text-align: center;
+    }
+    .links a:hover { border-color: #168cff; }
+    .motto {
+      margin: 24px 0 0;
+      text-align: center;
+      color: #168cff;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="photo" src="../images/abhishek-maurya.jpg" alt="Abhishek Maurya">
+
+    <h1>ABHISHEK</h1>
+    <div class="surname">Maurya</div>
+
+    <div class="badge">B.PHARM STUDENT</div>
+    <div class="sub">SENIOR &nbsp;|&nbsp; DEPARTMENT OF PHARMACY</div>
+
+    <section class="info">
+      <div class="row"><div class="label">Course</div><div class="value">B.Pharm</div></div>
+      <div class="row"><div class="label">Category</div><div class="value">Senior</div></div>
+      <div class="row"><div class="label">Department</div><div class="value">Pharmacy</div></div>
+      <div class="row"><div class="label">College</div><div class="value">Pranav Institute of Pharmaceutical Sciences &amp; Research</div></div>
+      <div class="row"><div class="label">Phone</div><div class="value">9153785706</div></div>
+      <div class="row"><div class="label">Email</div><div class="value">drabhimaurya18@gmail.com</div></div>
+    </section>
+
+    <div class="links">
+      <a href="https://www.instagram.com/dr_abhi_maurya18/" target="_blank" rel="noopener">Instagram — @dr_abhi_maurya18</a>
+      <a href="tel:+919153785706">Call Abhishek</a>
+      <a href="mailto:drabhimaurya18@gmail.com">Email Abhishek</a>
+    </div>
+
+    <div class="motto">“DISCIPLINE TODAY, PHARMACIST TOMORROW.”</div>
+  </main>
+</body>
+</html>
